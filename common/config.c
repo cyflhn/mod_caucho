@@ -35,6 +35,10 @@
  * Also, config.c needs to grab the srun and srun-backup blocks to properly
  * send the requests to the proper JVM.
  */
+ 
+ /*
+ hello mod
+ */
 
 #ifdef WIN32
 #include <winsock2.h>
