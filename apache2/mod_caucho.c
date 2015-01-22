@@ -125,7 +125,7 @@ cse_create_lock(config_t *config)
 void
 cse_free_lock(config_t *config, void *vlock)
 {
-	cse_unlock(g_lock_lock);
+	cse_lock(g_lock_lock);
 
   	apr_thread_mutex_destroy(vlock);
 
